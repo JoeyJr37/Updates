@@ -1,0 +1,15 @@
+h2 {
+font-family: "Times New Roman";
+font-size: 50px;
+}
+
+.main-container{
+display: flex;
+width:100%;
+justify-content: center;
+}
+
+.article-element{
+width: 70%;
+}
+
