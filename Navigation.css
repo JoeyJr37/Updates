@@ -1,5 +1,8 @@
 *{
 text-align: center;
+}
+
+nav{
 font-family: Chilanka;
 }
 
@@ -17,6 +20,7 @@ color: #8226FF;
 position: fixed;
 top: 0;
 width: 100%;
+z-index: 1;
 }
 
 ul {
