@@ -1,0 +1,41 @@
+/* october styles */
+h3 {
+    color: white;
+    font-size: 23px;
+    text-align: center;
+    border-bottom: 2px solid #8226FF;
+}
+p {
+    color: white;
+    padding: 10px 0px;
+    line-height: 24px;
+    font-size: 21px;
+}
+
+.image-section {
+    display: flex;
+    justify-content: center;
+}
+
+.image-container {
+    width: 80%;
+    border: 2px solid  #FFEA12;
+}
+
+.image {
+    width: 100%;
+}
+
+a {
+    color: white;
+}
+
+@media only screen and (min-width: 1020px) {
+    h3 {
+        font-size: 37px;
+    }
+    p {
+        font-size: 30px;
+        line-height: 35px;
+    }
+}
