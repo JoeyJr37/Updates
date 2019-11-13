@@ -1,10 +1,23 @@
 /* october styles */
-h3 {
+
+
+.month-title {
+    color: white;
+    font-size: 33px;
+    text-align: center;
+    border-bottom: 2px solid #8226FF;
+
+}
+
+.section-title {
     color: white;
     font-size: 23px;
     text-align: center;
     border-bottom: 2px solid #8226FF;
+
 }
+
+
 p {
     color: white;
     padding: 10px 0px;
@@ -31,9 +44,17 @@ a {
 }
 
 @media only screen and (min-width: 1020px) {
-    h3 {
-        font-size: 37px;
+    .month-title {
+        font-size: 40px;
+    border-bottom: 7px solid #8226FF;
     }
+
+
+.section-title {
+        font-size: 37px;
+    border-bottom: 7px solid #8226FF;
+    }
+
     p {
         font-size: 30px;
         line-height: 35px;
