@@ -99,6 +99,7 @@ font-size: 12px;
 color: white;
 display: flex;
 justify-content: center;
+    visibility: hidden;
 }
 .ourStoryButton {
     background-color: #cabfbf;
