@@ -1,227 +1,51 @@
-* {
-background-color: #060D13;
-font-family: "ZCOOL XiaoWei" , serif;
-padding: 0px 10px 0px 10px;
+
+.helper-two {
+    justify-content: center;
+    margin-top: 50px;
 }
 
-h1 {
-font-size: 27px;
-text-align: center;
-font-family: "ZCOOL XiaoWei" , serif;
-color: #8226FF;
-background-color: #060D13;
-padding: 2px 10px 15px 10px;
+.helper-four {
+    margin: 10px;
 }
 
-h2 {
-font-size: 19px;
-color: #8226FF;
-font-weight: bold;
-background-color: #cabfbf
-}
-
-.article-container {
-display: flex;
-flex-wrap: wrap;
-justify-content: center;
-margin-top: 10px;
-}
-
-.articleBox {
-display: flex;
-margin: 10px;
-width: 40%;
-padding: 3px;
-border: 3px solid #FFEA12;
-box-shadow: 1px 1px 0.5px;
-border-radius: 5%;
-background-color: #cabfbf;
-}
-
-.image-container {
-display: flex;
-width: 100%;
-padding-bottom: 10px;
-margin-top: 5px;
-background-color: #cabfbf
-}
-
-.image {
-width: 100%;
-background-color: #cabfbf
-}
-
-.image-container-two {
-width: 100%;
-}
-
-.link-class {
+.text-box-title {
     text-align: center;
-    text-decoration: none;
-    padding: 0px 7px;
-    background-color: #cabfbf;
+    font-size: 26px;
 }
 
-.articleBox:hover {
-border: 10px solid #FFEA12;
-box-shadow: 2px 3px 2px 5px;
-cursor: pointer;
+.base-color {
+    color: #822FF6;
+    font-size: 30px;
 }
 
-.non-mobile-links {
-display: none;
-font-size: 24px;
+.helper-one {
+    font-size: 22px;
+}
+.helper-three {
+    background-color: gray;
+}
+.secondary-color {
+    color: rgb(223, 195, 238);
+}
+.my-background {
+    color: rgb(223, 195, 238);
+}
+.my-background:hover {
+    border-bottom: 3px solid yellow;
+    color: rgb(223, 195, 238);
 }
 
-.footer {
-background-color: gray;
-padding: 30px;
-color: white;
-height: 15vh;
-margin-top: 30px;
-font-size: 12px;
+.my-font {
+    font-family: "ZCOOL XiaoWei", serif;
+    color: rgb(128, 0, 255);
+    font-weight: bold;
 }
-.intro-section {
-    background-color: #060D13;
-    color:#cabfbf;
-    font-size: 17px;
-    padding: 0px 10px 0px 10px;
-    line-height: 22px;
+.image-box {
+    box-shadow: 0 4px 6px 0;
 }
-.intro-article {
-    background-color: inherit;
+.image-box:hover {
+    border: 5px solid yellow;
 }
-.intro-header {
-    background-color: inherit;
-    text-align: center;
-}
-.ourStoryButton-container {
-color: white;
-display: flex;
-justify-content: center;
-    visibility: hidden;
-}
-.ourStoryButton {
-    background-color: #cabfbf;
-    text-decoration: none;
-    padding: 10px;
-}
-.ourStoryButton:hover {
-    background-color: #FFEA12;
-}
-/* Big phones, iPads & Tablets */
-@media only screen and (min-width: 570px) and (max-width: 780px) {
-   /* for testing */
-    /*.footer {
-        background-color: blue;
-    }*/
-    .articleBox {
-        width: 40%;
-    }
-    h1 {
-       font-size: 30px;
-             }
-    h2 {
-        font-size: 23px;
-    }
-    .non-mobile-links {
-        display: flex;
-        background-color: gray;
-        border: 4px solid #FFEA12;
-        width: 100%;
-        justify-content: space-around;
-    }
-    li a {
-        text-decoration: none;
-    }
-    li {
-        background-color: gray;
-        padding: 5px;
-    }
-    li:hover {
-        background-color: #FFEA12;
-    }
-    a {
-        color: black;
-    }
-    .nav-bar-links-background {
-        background-color: gray;
-    }
-    .nav-bar-links-background:hover {
-        background-color: #FFEA12;
-        cursor: pointer;
-    }
-    .intro-section {
-        padding: 10px;
-    }
-    .intro-header {
-        margin-bottom: 4px;
-    }
-
-}
-@media only screen and (min-width: 781px) {
-    /* for testing */
-    /*.footer {
-        background-color: red;
-    }*/
-    h1 {
-        font-size: 50px;
-    }
-    h2 {
-        font-size: 40px;
-    }
-    .articleBox {
-        width: 30%;
-        justify-content: center;
-        padding: 5px;
-     }
-     .link-class {
-         align-self: center;
-     }
-     .october-box {
-         align-self: stretch;
-         }
-     .non-mobile-links {
-        display: flex;
-        background-color: gray;
-        border: 2px solid #FFEA12;
-        width: 100%;
-        justify-content: space-around;
-        font-size: 30px;
-    }
-    li a {
-        text-decoration: none;
-    }
-    li {
-        background-color: gray;
-        padding: 5px;
-    }
-    li:hover {
-        background-color: #FFEA12;
-    }
-    a {
-        color: black;
-    }
-    .nav-bar-links-background {
-        background-color: gray;
-    }
-    .nav-bar-links-background:hover {
-        background-color: #FFEA12;
-        cursor: pointer;
-    }
-    .intro-section {
-        padding: 75px;
-    }
-    .intro-header {
-        margin-bottom: 4px;
-    }
-    .intro-article {
-        font-size: 27px;
-        line-height: 35px;
-       margin: 30px 0px;
-    }
-
-    .ourStoryButton {
-        font-size: 25px;
-    }
+.top-border {
+    border-top: 6px solid #822FF6;
 }

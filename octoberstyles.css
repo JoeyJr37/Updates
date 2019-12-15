@@ -1,62 +1,32 @@
-/* october styles */
-
-
-.month-title {
-    color: white;
+.text-titles {
+    font-family: "ZCOOL XiaoWei", serif;
+    font-size: 40px;
+    font-weight: bold;
+    text-align: center;
+}
+.text-titles-smaller {
     font-size: 33px;
+    font-weight: bold;
     text-align: center;
-    border-bottom: 2px solid #8226FF;
-
+    margin-top: 25px;
 }
-
-.section-title {
-    color: white;
-    font-size: 23px;
-    text-align: center;
-    border-bottom: 2px solid #8226FF;
-
-}
-
-
-p {
-    color: white;
-    padding: 10px 0px;
-    line-height: 24px;
+.bottom-border {
     font-size: 21px;
+    line-height: 25px;
 }
-
-.image-section {
+.image-container {
     display: flex;
     justify-content: center;
 }
-
-.image-container {
-    width: 80%;
-    border: 2px solid  #FFEA12;
+.image-border {
+    border: 5px solid #822FF6;
 }
-
-.image {
-    width: 100%;
+.text-color-size {
+    color:blue;
+    font-size: 23px;
+    line-height: 29px;
 }
-
-a {
-    color: white;
-}
-
-@media only screen and (min-width: 1020px) {
-    .month-title {
-        font-size: 40px;
-    border-bottom: 7px solid #8226FF;
-    }
-
-
-.section-title {
-        font-size: 37px;
-    border-bottom: 7px solid #8226FF;
-    }
-
-    p {
-        font-size: 30px;
-        line-height: 35px;
-    }
+.section-box {
+    display: flex;
+    border: 2px solid red;
 }

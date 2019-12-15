@@ -1,0 +1,23 @@
+.main-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: repeat(8, 1fr);
+}
+
+.wrapper {
+    padding: 10px;
+}
+
+.intro-scripture {
+    grid-column-start: span 2;
+}
+.intro-text {
+    grid-column-start: span 2;
+}
+.image-container {
+    height: 100vh;
+    overflow: hidden;
+}
+.main-text-color {
+    color: #f2baf3;
+}
